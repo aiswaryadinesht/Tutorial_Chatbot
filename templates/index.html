@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to NLP Tutor Chatbot</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a0a23; /* Dark blue background */
+            color: #ffffff; /* White text */
+        }
+
+        .chatbot-container {
+            width: 60%; /* Wider container for better alignment */
+            margin: 50px auto;
+            background: #1a1a2e; /* Darker blue box */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #27bcff; /* Light blue heading */
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .logo {
+            width: 80px;
+            margin-bottom: 10px;
+        }
+
+        .robot-gif {
+            width: 150px;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            width: 90%; /* Consistent width for textarea */
+            height: 120px; /* Increased height for better usability */
+            padding: 15px;
+            font-size: 16px;
+            margin-bottom: 15px;
+            border: 2px solid #27bcff;
+            border-radius: 10px;
+            background-color: #2a2a3e; /* Dark grey text box */
+            color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            resize: none; /* Disable resizing */
+        }
+
+        textarea::placeholder {
+            color: #888;
+        }
+
+        button {
+            width: 90%; /* Same width as textarea */
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            background-color: #27bcff; /* Light blue button */
+            color: white;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #1e90ff; /* Slightly darker blue on hover */
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+            transform: translateY(-3px); /* Lift effect */
+        }
+
+        .response-container {
+            width: 90%; /* Same width as textarea and button */
+            margin-top: 20px;
+            background: #2a2a3e; /* Dark grey response box */
+            padding: 20px;
+            border-radius: 10px;
+            word-wrap: break-word;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            text-align: left; /* Left-align for better readability */
+        }
+
+        .response-container p {
+            margin: 5px 0;
+            line-height: 1.5;
+        }
+
+        .footer {
+            margin-top: 20px;
+            color: #888;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="chatbot-container">
+        <!-- Logo -->
+        <img class="logo" src="https://img.icons8.com/?size=100&id=1RueIplXPGd2&format=png&color=000000" alt="Chatbot Logo">
+
+        <!-- Heading -->
+        <h1>Welcome to NLP Tutorial Chatbot</h1>
+        <h2><i>May I help you?</i></h2>
+
+    
+        <!-- Chatbox -->
+        <form method="POST">
+            <textarea name="user_input" placeholder="Ask me about NLP..."></textarea>
+            <button type="submit">Ask</button>
+        </form>
+
+        <!-- Response Section -->
+        {% if response %}
+        <div class="response-container">
+            <p><strong>You:</strong> {{ user_input }}</p>
+            <p><strong>Chatbot:</strong> {{ response }}</p>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="footer">
+        Powered by Aiswarya Dinesh T | © 2024
+    </div>
+</body>
+</html>
