@@ -1,0 +1,50 @@
+Question,Answer
+What is Natural Language Processing (NLP)?,NLP is a field of artificial intelligence that focuses on the interaction between computers and human language.
+What are the main tasks of NLP?,"The main tasks of NLP include text classification, sentiment analysis, machine translation, question answering, and text summarization."
+What is tokenization?,Tokenization is the process of breaking down text into smaller units called tokens.
+What are tokens in NLP?,"Tokens are individual units of text, such as words, subwords, or characters."
+What is stemming?,Stemming is the process of reducing words to their root or base form.
+What is lemmatization?,Lemmatization is the process of reducing words to their dictionary or canonical form.
+Difference between stemming and lemmatization?,"Stemming is less accurate and removes suffixes, while lemmatization uses linguistic rules to return valid dictionary words."
+What is part-of-speech (POS) tagging?,"POS tagging assigns a part of speech (noun, verb, adjective, etc.) to each word in a text."
+What is named entity recognition (NER)?,"NER identifies entities in text such as names of people, organizations, locations, and dates."
+What is sentiment analysis?,"Sentiment analysis determines whether the sentiment of a text is positive, negative, or neutral."
+What is text classification?,Text classification assigns predefined categories to text documents.
+What is machine translation?,Machine translation translates text from one language to another.
+What is question answering?,Question answering is a system that provides answers to user queries expressed in natural language.
+What is text summarization?,Text summarization condenses a text document into a shorter version while preserving its main ideas.
+What are stop words?,"Stop words are commonly used words (e.g., 'the,' 'is,' 'in') that are often removed in NLP tasks to focus on meaningful words."
+What is word sense disambiguation (WSD)?,WSD identifies the correct meaning of a word based on its context.
+What is a bag-of-words (BoW) model?,"BoW is a text representation model that treats text as a collection of words, ignoring grammar and word order."
+What is TF-IDF?,TF-IDF stands for Term Frequency-Inverse Document Frequency and is used to measure the importance of a word in a document relative to a collection of texts.
+What is a language model?,A language model predicts the probability of a sequence of words or the next word in a sentence.
+What is text preprocessing in NLP?,"Text preprocessing involves cleaning and preparing text data for analysis, including removing stop words, punctuation, and normalizing text."
+What is a word embedding?,A word embedding is a dense vector representation of a word in a continuous vector space.
+What is one-hot encoding?,One-hot encoding is a representation of categorical data where each category is represented as a binary vector.
+What is semantic analysis in NLP?,Semantic analysis focuses on understanding the meaning and relationships of words and sentences.
+What is syntactic analysis?,"Syntactic analysis, or parsing, determines the grammatical structure of a sentence."
+What is an n-gram?,An n-gram is a contiguous sequence of n items (words or characters) in a text.
+What is bigram?,A bigram is a sequence of two adjacent words in a text.
+What is cosine similarity?,Cosine similarity measures the similarity between two vectors based on their cosine angle.
+What is Jaccard similarity?,Jaccard similarity measures the similarity between two sets by dividing the size of their intersection by the size of their union.
+What are word clouds?,"Word clouds visually represent word frequency in a text, where more frequent words appear larger."
+What is dependency parsing?,Dependency parsing analyzes the grammatical structure of a sentence by identifying relationships between words.
+What is a corpus in NLP?,A corpus is a large collection of text used for training or analysis in NLP.
+What is topic modeling?,Topic modeling is an unsupervised learning technique to identify hidden topics in a collection of text.
+What is Latent Dirichlet Allocation (LDA)?,LDA is a probabilistic topic modeling algorithm used to find topics in a set of text documents.
+What is word2vec?,Word2Vec is a neural network-based word embedding model that learns word representations based on their context.
+What is GloVe?,GloVe (Global Vectors for Word Representation) is a word embedding model based on word co-occurrence statistics.
+What is BERT?,BERT (Bidirectional Encoder Representations from Transformers) is a transformer-based model for NLP tasks.
+What is GPT?,GPT (Generative Pre-trained Transformer) is a transformer-based model designed for text generation and understanding.
+What is transfer learning in NLP?,Transfer learning uses pre-trained models and fine-tunes them for specific tasks.
+What is a transformer in NLP?,A transformer is a deep learning model architecture designed to process sequential data without relying on recurrent connections.
+What is the attention mechanism in NLP?,The attention mechanism allows models to focus on relevant parts of the input sequence when making predictions.
+What is sequence-to-sequence (Seq2Seq) learning?,"Seq2Seq is a framework for mapping an input sequence to an output sequence, often used in tasks like machine translation."
+What is BLEU score?,BLEU score measures the quality of machine-translated text compared to human-translated reference text.
+What is perplexity in NLP?,Perplexity is a metric to evaluate the quality of language models; lower perplexity indicates better performance.
+What is spaCy?,SpaCy is an NLP library for advanced text processing and modeling.
+What is NLTK?,"NLTK (Natural Language Toolkit) is a Python library for NLP tasks like tokenization, POS tagging, and text classification."
+What is a conversational AI?,"Conversational AI enables machines to understand, process, and respond to human language in a conversational context."
+What are pre-trained models in NLP?,Pre-trained models are machine learning models that have been trained on large datasets and can be fine-tuned for specific tasks.
+What is an encoder-decoder architecture?,An encoder-decoder architecture is used in Seq2Seq models to map input to output sequences.
+What is overfitting in NLP models?,"Overfitting occurs when a model learns the noise in training data instead of general patterns, leading to poor performance on unseen data."
